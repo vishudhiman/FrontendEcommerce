@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<title>Contact Us-Red Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" width="125px"></a>
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<!-- <li><a href="account.html">Account</a></li>	 -->
+			</ul>
+		</nav>
+		<img src="images/cart.png" width="30px" height="30px">
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+	</div>
+	</div>
+	<!-- --------------- Account page------------>
+	<div class="account-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-2">
+					<h1>How To Reach Us..</h1>
+					<h3>Red Store Pvt Ltd..</h3>
+					<h3>71, Hitec City, Hyderabad - 223780</h3>
+					<h3>+91-855-529-1684</h3>
+					<h3>Email: Red.store@gmail.com</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15224.9975629072!2d78.36776457885772!3d17.44777362919228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93dc8c5d69df%3A0x19688beb557fa0ee!2sHITEC%20City%2C%20Hyderabad%2C%20Telangana%20500081!5e0!3m2!1sen!2sin!4v1598170346171!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+				<div class="col-2">
+					<div class="form-container">
+						<div class="form-btn">
+              			<span>Contact Us</span>
+						<hr id="Indicator1">
+					</div>
+					<form id="contactForm">
+						<input type="text" placeholder="First Name" required="true">
+						<input type="text" placeholder="Last Name" required="true">
+            			<input type="email" placeholder="Email." required="true">
+            			<textarea placeholder="Enter Your Message" rows="2" ></textarea>
+						<button type="submit" class="btn" onclick="contact()" id="cbtn">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!----------------------Footer ------------------------------>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download Our App For Android And ios Mobile</p>
+				<div class="app-logo">
+					<img src="images/play-store.png">
+					<img src="images/app-store.png">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="images/logo-white.png">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+			     <ul>
+					<a href=""><li>Facebook</li>
+					<a href=""><li>Instagram</li></a>
+					<a href=""><li>Twitter</li></a>
+					<a href=""><li>Youtube</li></a>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">&copy,Copyright 2020 -Red Tape</p>
+		<p class="copyright">71, Hitec City, Hyderabad - 223780</p>
+		<p class="copyright">+91-855-529-1684</p>
+</div>
+
+<script>
+	var MenuItems=document.getElementById('MenuItems');
+	MenuItems.style.maxHeight="0px";
+
+	function menutoggle() {
+		if(MenuItems.style.maxHeight=="0px")
+		{
+			MenuItems.style.maxHeight="200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight="0px";
+		}
+		
+	}
+</script>
+<!-- for toggle form -->
+<script>
+	var contactForm=document.getElementById("cbtn");
+
+		function contact(){
+			alert("Thanks for your response we will contact you within 24 hours!!!")
+		}
+
+	
+
+
+</script>
+</body>
+</html>

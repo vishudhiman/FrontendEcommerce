@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<title>Red Store</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="header">
+	<div class="container">
+		<div class="navbar">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" width="125px"></a>
+		</div>
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="signup.html">Signup</a></li>
+				<!-- <li><a href="account.html">Account</a></li>		 -->
+			</ul>
+		</nav>
+		<a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+	</div>
+	<div class="row">
+		<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 7</div>
+    <img src="images/shop.jpg" style="width:1300px;height: 600px">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="images/shoe.jpg" style="width:1300px;height: 600px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3/ 7</div>
+    <img src="images/watch.jpg" style="width:1300px;height: 600px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4/ 7</div>
+    <img src="images/hang.jpg" style="width:1300px;height: 600px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5/ 7</div>
+    <img src="images/hang1.jpg" style="width:1300px;height: 600px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">6/ 7</div>
+    <img src="images/de.jpg" style="width:1300px;height: 600px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">7/ 7</div>
+    <img src="images/boss.jpg" style="width:1300px;height: 600px">
+    <div class="text"></div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+ <!--  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+</div>
+<br>
+<div class="rows">
+	<div class="cols-2">
+		<img src="images/image1.png" >
+	</div>
+	<div class="cols-2">
+		<h1>Give Your Workout <br>A New Style!!!</h1>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<!--------featured categories--------->
+<div class="categories">
+	<div class="small-container">
+	<!-- <h2>Featured Categories</h2> -->
+		<div class="row">
+		<div class="col-3">
+			<img src="images/category-1.jpg">
+		</div>		
+		<div class="col-3">
+			<img src="images/category-2.jpg">
+		</div>		
+		<div class="col-3">
+			<img src="images/category-3.jpg">
+		</div>		
+	</div>
+	</div>
+</div>
+<!--------featured products--------->
+<div class="small-container">
+	<h2 class="title">Featured Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<a href="productdetails.html"><img src="images/product-1.jpg"></a>
+			<h4>Red Printed T-Shirt</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$50.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-2.jpg">
+			<h4>SparX Shoes</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$200.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-3.jpg">
+			<h4>Shoes</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$100.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-4.jpg">
+			<h4>Blue Printed T-Shirt</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$50.00</p>
+		</div>
+	</div>
+	<!----Latest Products----->
+	<h2 class="title">Latest Products</h2>
+	<div class="row">
+		<div class="col-4">
+			<img src="images/product-5.jpg">
+			<h4>Red Printed T-Shirt</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$50.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-6.jpg">
+			<h4>SparX Shoes</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$200.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-7.jpg">
+			<h4>Shoes</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$100.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-8.jpg">
+			<h4>Blue Printed T-Shirt</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$50.00</p>
+		</div>
+	</div>
+<div class="row">
+		<div class="col-4">
+			<img src="images/product-9.jpg">
+			<h4>Red Printed T-Shirt</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$50.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-10.jpg">
+			<h4>SparX Shoes</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$200.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-11.jpg">
+			<h4>Shoes</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$100.00</p>
+		</div>
+		<div class="col-4">
+			<img src="images/product-12.jpg">
+			<h4>Blue Printed T-Shirt</h4>
+			<div class="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$50.00</p>
+		</div>
+	</div>
+</div>
+<!-----Offer----->
+<div class="offer">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-2">
+				<img src="images/exclusive.png" class="offer-img">
+			</div>
+			<div class="col-2">
+				<h1>Smart Band 4</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut <small>labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</small></p>
+				<a href="" class="btn">Buy Now &#8594;</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-------Brands----->
+<div class="brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-5">
+				<img src="images/adidas.jpg">
+			</div>
+			<div class="col-5">
+				<img src="images/jordan.jpg">
+			</div>
+			<div class="col-5">
+				<img src="images/nike.jpg">
+			</div>
+			<div class="col-5">
+				<img src="images/puma.png">
+			</div>
+			<div class="col-5">
+				<img src="images/armani.jpg">
+			</div>
+		</div>
+	</div>
+</div>
+<!-------Footer -->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3>Download Our App</h3>
+				<p>Download Our App For Android And ios Mobile</p>
+				<div class="app-logo">
+					<img src="images/play-store.png">
+					<img src="images/app-store.png">
+				</div>
+			</div>
+			<div class="footer-col-2">
+				<img src="images/logo-white.png">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+			     <ul>
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>Twitter</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">&copy,Copyright 2020 -Red Tape</p>
+		<p class="copyright">71, Hitec City, Hyderabad - 223780</p>
+		<p class="copyright">+91-855-529-1684</p>
+	</div>
+</div>
+<!------------------------Toggle for Menu----------------->
+<script >
+	var MenuItems=document.getElementById('MenuItems');
+	MenuItems.style.maxHeight="0px";
+
+	function menutoggle() {
+		if(MenuItems.style.maxHeight=="0px")
+		{
+			MenuItems.style.maxHeight="200px";
+		}
+		else
+		{
+			MenuItems.style.maxHeight="0px";
+		}
+		
+	}
+// var slideIndex = 1;
+// showSlides(slideIndex);
+
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
+
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {slideIndex = 1}    
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";  
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//       dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";  
+//   dots[slideIndex-1].className += " active";
+// }
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+</script>
+</body>
+</html>
