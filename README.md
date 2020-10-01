@@ -18,5 +18,5 @@ Some of the screenshots of website are also in the screenshots folder.
 - Responsive Footer
 
 `
-This website is only for men's clothing and accessories , so all the latest products and featured products are labelled under front page and all products page.
+This website is only for men's clothing and accessories , so that all the latest products and feature products are labelled under front page and all products page.
 `
