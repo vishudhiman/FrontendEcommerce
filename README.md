@@ -9,7 +9,7 @@ Some of the screenshots of website are also in the screenshots folder.
 `
 ## Features of My website
 
-- Login And Signup Page with Modal Popup
+- LOGIN And Signup Page with Modal Popup
 - Responsive Navbar and Image Slider
 - About Us Page
 - Contact Us page
